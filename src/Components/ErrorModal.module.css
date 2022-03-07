@@ -1,0 +1,71 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.75);
+}
+
+.modal {
+  border-radius: 10px;
+  position: fixed;
+  top: 30vh;
+  left: 10%;
+  width: 80%;
+  z-index: 10;
+  overflow: hidden;
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  /* max-width: 500px; */
+}
+
+.header {
+  background: black;
+  margin-top: 0;
+  padding: 1rem;
+}
+
+.header h2 {
+  margin: 0;
+  color: white;
+}
+
+.body {
+  padding: 1rem;
+  font-size: 1.05rem;
+}
+
+.footer {
+  text-align: right;
+  margin-right: 3rem;
+  margin-bottom: 1rem;
+}
+
+.footer button {
+  background-color: black;
+  color: white;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.footer button:hover {
+  background-color: rgb(58, 57, 57);
+  border: 1px solid rgb(58, 57, 57);
+}
+
+.footer button:active {
+  background-color: black;
+}
+
+@media (max-width: 640px) {
+  .body {
+    padding: 0.7rem;
+  }
+
+  .footer {
+    width: 100%;
+    text-align: center;
+  }
+}

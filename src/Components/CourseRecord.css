@@ -1,0 +1,65 @@
+.course-record-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.8rem;
+  border-radius: 10px;
+  margin-top: 1rem;
+  width: 60%;
+  margin: 1.5em auto;
+  box-shadow: 0px 2px 8px rgb(112, 112, 112);
+  user-select: none;
+}
+.course-record-container > div {
+}
+
+.course-record-name {
+  width: 40%;
+}
+
+.course-record-unit {
+  width: 20%;
+  margin: 1rem;
+}
+.course-record-grade {
+  width: 20%;
+  margin: 1rem;
+}
+.course-record-delete {
+  width: 20%;
+  margin-left: auto;
+  margin: 1rem;
+}
+
+.course-record-delete button {
+  width: 100%;
+}
+
+@media (max-width: 640px) {
+  .course-record-container {
+    width: 70%;
+  }
+  .course-record-delete {
+    display: none;
+  }
+}
+
+@media (min-width: 640px) and (max-width: 1007px) {
+  .course-record-name {
+    width: 40%;
+  }
+
+  .course-record-unit {
+    width: 30%;
+  }
+  .course-record-grade {
+    width: 30%;
+  }
+
+  .course-record-delete {
+    display: none;
+  }
+
+  .course-record-container {
+    width: 60%;
+  }
+}
