@@ -63,4 +63,9 @@ button:active {
   .button-container {
     text-align: center;
   }
+
+  .form {
+    width: 80%;
+    margin: auto;
+  }
 }

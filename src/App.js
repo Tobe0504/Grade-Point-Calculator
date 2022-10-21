@@ -16,7 +16,7 @@ function App() {
   useEffect(() => {
     setLoadDisplay({
       header: "Welcome to your Grade Point Calculator!",
-      body: "Please note data entered cannot in any way be reterieved and privacy is therefore guaranteedt. If you are making use of a mobile device (a smart phone or a tablet), you can double tap on the saved Course Entry to delete while on desktops or laptops, there is a delete button and it allows for double-clicking to delete as well.",
+      body: "Please note data entered cannot in any way be reterieved and privacy is therefore guaranteed. If you are making use of a mobile device (a smart phone or a tablet), you can double tap on the saved Course Entry to delete while on desktops or laptops, there is a delete button and it allows for double-clicking to delete as well.",
     });
   }, []);
 
@@ -26,6 +26,7 @@ function App() {
   };
   const gpCollectHandler = (gpData) => {
     setGp(gpData);
+    console.log(gp);
   };
 
   const dataFiltterHandler = (key) => {

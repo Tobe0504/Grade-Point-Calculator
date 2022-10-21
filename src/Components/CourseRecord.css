@@ -36,7 +36,7 @@
 
 @media (max-width: 640px) {
   .course-record-container {
-    width: 70%;
+    width: 90%;
   }
   .course-record-delete {
     display: none;

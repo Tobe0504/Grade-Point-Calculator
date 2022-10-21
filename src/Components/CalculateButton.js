@@ -31,7 +31,9 @@ const CalculateButton = (props) => {
       if (x === "f" || x === "F") {
         return 0;
       }
+      return x;
     });
+
     // console.log(newMapped);
 
     const mappedUnit = collectedData.map((dataUnit) => {
